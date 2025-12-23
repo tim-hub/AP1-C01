@@ -4,24 +4,24 @@ A comprehensive study resource for the **AWS Certified Generative AI Developer -
 
 ## 🎯 What's Included
 
-| Resource | Description |
-|----------|-------------|
-| **900 Practice Questions** | Parsed and structured questions covering all 5 exam domains |
-| **Decision Flowcharts** | Visual guides for choosing the right AWS service |
-| **RAG Training Chatbot** | Build your own study assistant using Amazon Bedrock |
-| **Mastery Guide** | Distilled knowledge from all questions |
+| Resource                      | Description                                                    |
+|-------------------------------|----------------------------------------------------------------|
+| **900 Practice Questions**    | Parsed and structured questions covering all 5 exam domains    |
+| **Decision Flowcharts**       | Visual guides for choosing the right AWS service               |
+| **RAG Training Chatbot**      | Build your own study assistant using Amazon Bedrock            |
+| **Mastery Guide**             | Distilled knowledge from all questions                         |
 
 ## 📊 Exam Domain Coverage
 
 Based on analysis of 900 practice questions:
 
-| Domain | Weight | Questions |
-|--------|--------|-----------|
-| Foundation Model Integration, Data Management & Compliance | 31% | 273 |
-| Implementation and Integration | 26% | 233 |
-| AI Safety, Security, and Governance | 20% | 156 |
-| Operational Efficiency and Optimization | 14% | 126 |
-| Testing, Validation, and Troubleshooting | 12% | 106 |
+| Domain                                                       | Weight | Questions |
+|--------------------------------------------------------------|--------|-----------|
+| Foundation Model Integration, Data Management & Compliance   | 31%    | 273       |
+| Implementation and Integration                               | 26%    | 233       |
+| AI Safety, Security, and Governance                          | 20%    | 156       |
+| Operational Efficiency and Optimization                      | 14%    | 126       |
+| Testing, Validation, and Troubleshooting                     | 12%    | 106       |
 
 ## 🚀 Quick Start
 
@@ -88,13 +88,13 @@ aws-ap1-c01/
 
 The chatbot uses these AWS services (all covered on the exam!):
 
-| Service | Purpose | Exam Domain |
-|---------|---------|-------------|
-| Bedrock Knowledge Base | RAG retrieval | Domain 1 |
-| Bedrock Guardrails | Content safety | Domain 3 |
-| S3 | Document storage | Domain 1 |
-| CloudWatch | Monitoring | Domain 4 |
-| Claude 3 / Titan | LLM inference | Domain 2 |
+| Service                   | Purpose             | Exam Domain   |
+|---------------------------|---------------------|---------------|
+| Bedrock Knowledge Base    | RAG retrieval       | Domain 1      |
+| Bedrock Guardrails        | Content safety      | Domain 3      |
+| S3                        | Document storage    | Domain 1      |
+| CloudWatch                | Monitoring          | Domain 4      |
+| Claude 3 / Titan          | LLM inference       | Domain 2      |
 
 See `BUILD-GUIDE.md` for complete instructions.
 
@@ -112,13 +112,13 @@ From analyzing 900 questions, these services appear most frequently:
 
 Things the exam tests you on NOT doing:
 
-| Scenario | Wrong Choice | Why |
-|----------|--------------|-----|
-| GPU inference | Lambda | Lambda doesn't support GPU |
-| PII protection | Comprehend post-process | PII already logged before detection |
-| Async agent pattern | Step Functions | Agents can't integrate with Step Functions directly |
-| Embedding model change | Keep old vectors | Must re-index when embedding model changes |
-| Variable traffic | Fixed provisioned capacity | Use auto-scaling or scale-to-zero |
+| Scenario                  | Wrong Choice                  | Why                                                   |
+|---------------------------|-------------------------------|-------------------------------------------------------|
+| GPU inference             | Lambda                        | Lambda doesn't support GPU                            |
+| PII protection            | Comprehend post-process       | PII already logged before detection                   |
+| Async agent pattern       | Step Functions                | Agents can't integrate with Step Functions directly   |
+| Embedding model change    | Keep old vectors              | Must re-index when embedding model changes            |
+| Variable traffic          | Fixed provisioned capacity    | Use auto-scaling or scale-to-zero                     |
 
 ## 🤝 Contributing
 
