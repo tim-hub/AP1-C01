@@ -161,7 +161,7 @@ flowchart TD
     Q1 -->|Yes| TOK[Guardrails ANONYMIZE<br/>+ Tokenization Service<br/>Store PII mappings]
     Q1 -->|No| Q2{Context Important?}
     
-    Q2 -->|Yes, keep conversation| ANON[Guardrails ANONYMIZE<br/>Replace with [EMAIL]<br/>Conversation continues]
+    Q2 -->|Yes, keep conversation| ANON[Guardrails ANONYMIZE<br/>Replace with *email* <br/>Conversation continues]
     Q2 -->|No, block entirely| BLOCK[Guardrails BLOCK<br/>Stop request<br/>Return error message]
     
     TOK --> TRACK[Enable Guardrail Tracing<br/>CloudWatch InvocationsIntervened<br/>GuardrailPolicyType dimension]
